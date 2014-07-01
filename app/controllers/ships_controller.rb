@@ -13,6 +13,7 @@ class ShipsController < ApplicationController
   end
 
   def create
+    
     @ship = Ship.new(params[:ship])
 
     if @ship.save

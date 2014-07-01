@@ -7,7 +7,7 @@ gem 'rails'#, '3.2.9'
 #gem 'mysql2'
 gem 'pg'
 #gem 'sqlite3'
-gem 'thin'
+#gem 'thin'
 
 
 # Gems used only for assets and not required
