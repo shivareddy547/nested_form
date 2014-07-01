@@ -4,8 +4,8 @@ gem 'rails'#, '3.2.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
+gem 'mysql2'
+#gem 'sqlite3'
 gem 'thin'
 
 
@@ -21,9 +21,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
+gem 'therubyracer'
 gem 'jquery-rails'#, '2.1.4'
-
+gem 'heroku-rake'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
